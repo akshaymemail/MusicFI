@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "MusicFI - a music download and stream app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "AKSHAY KUMAR SINGH",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
