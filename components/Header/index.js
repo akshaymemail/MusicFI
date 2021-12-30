@@ -7,27 +7,31 @@ import {
   NavItem,
   NavLink,
   NavbarToggler,
-  NavbarText,
 } from 'reactstrap'
+import Link from 'next/link'
 
 function Header() {
   return (
     <div>
-      <Navbar color="danger" expand="md" fixed="top" light>
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+      <Navbar color="warning" expand="md" fixed="top" light>
+        <NavbarBrand>
+          <Link href="/">MusicFI</Link>
+        </NavbarBrand>
         <NavbarToggler onClick={function noRefCheck() {}} />
         <Collapse navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink>
+                <Link href="/latests">Latests</Link>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+              <NavLink>
+                <Link href="/upcoming">Upcoming</Link>
               </NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          <NavLink>Login</NavLink>
         </Collapse>
       </Navbar>
     </div>
