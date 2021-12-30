@@ -1,33 +1,34 @@
-# Getting Started with MusicFI (Under Development)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**_MusicFI - A music download and streaming app that is made using MERN Stack._**
+## Getting Started
 
-# Let's dig in
+First, run the development server:
 
-In the project directory, your will find three folder admin, client, server.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## admin
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The admin folder consist of admin panel of MusicFi where admins can manage content of the MusicFI.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## client
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The client is consist of MusicFi that will by the users.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## client
+## Learn More
 
-The server is consist of backend of MusicFi.
+To learn more about Next.js, take a look at the following resources:
 
-# How To Use ?
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Start client
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-cd into client directory and run `npm start` this will start client app on port 3000.
+## Deploy on Vercel
 
-## Start admin
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-cd into admin directory and run `npm start` this will start admin app on port 4000.
-
-## Start server
-
-cd into server directory and run `npm start` this will start server on port 5000.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
