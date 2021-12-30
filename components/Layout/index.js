@@ -7,7 +7,7 @@ function Layout({ children }) {
   return (
     <Fragment>
       <Header />
-      <Container className="mt-5" fluid>
+      <Container style={{ marginTop: 60 }} fluid>
         {children}
       </Container>
       <Footer />
