@@ -5,11 +5,13 @@ import { Fragment } from 'react'
 import SongCard from '../components/SongCard'
 import LatestRelease from '../components/LatestRelease'
 import { latestSongs } from '../fake-data/fake-data'
+import MusicSection from '../components/MusicSection'
 
 export default function Home() {
   return (
     <Fragment>
       <LatestRelease latestSongs={latestSongs} />
+      <MusicSection />
     </Fragment>
   )
 }
